@@ -3,7 +3,7 @@
 	let scrolled = false;
 
 	const handleScroll = () => {
-		scrolled = window.scrollY > 100;
+		scrolled = window.scrollY > 50;
 	};
 
 	onMount(() => {
@@ -15,7 +15,7 @@
 <div class="" class:hidden={scrolled} class:block={!scrolled}>
 	<a href="https://www.instagram.com/selladministradora">
 		<svg
-			class="hover:text-green-sell me-4 inline-flex h-12 w-12 text-white duration-500"
+			class="me-4 inline-flex h-12 w-12 text-white duration-500 hover:text-green-sell"
 			viewBox="0 0 24 24"
 			fill="none"
 			stroke="currentColor"
@@ -30,7 +30,7 @@
 	</a>
 	<a href="https://www.youtube.com/@selladministradora">
 		<svg
-			class="hover:text-green-sell me-2 inline-flex h-12 w-12 text-white duration-500"
+			class="me-2 inline-flex h-12 w-12 text-white duration-500 hover:text-green-sell"
 			viewBox="0 0 24 24"
 			fill="none"
 			stroke="currentColor"
@@ -46,7 +46,7 @@
 	</a>
 	<a href="https://www.facebook.com/selladministradora">
 		<svg
-			class="hover:text-green-sell me-3 inline-flex h-12 w-12 text-white duration-500"
+			class="me-3 inline-flex h-12 w-12 text-white duration-500 hover:text-green-sell"
 			viewBox="0 0 24 24"
 			fill="none"
 			stroke="currentColor"
@@ -61,7 +61,7 @@
 	</a>
 	<a href="https://www.linkedin.com/company/selladministradora/mycompany/">
 		<svg
-			class="hover:text-green-sell inline-flex h-12 w-12 text-white duration-500"
+			class="inline-flex h-12 w-12 text-white duration-500 hover:text-green-sell"
 			viewBox="0 0 24 24"
 			fill="none"
 			stroke="currentColor"

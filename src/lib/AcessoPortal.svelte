@@ -1,25 +1,14 @@
-<div class="flex">
+<div class=" flex items-center justify-center">
 	<div class="mr-12">
 		<div
-			class="items-center text-center text-5xl font-bold leading-normal text-white"
+			class="items-center text-center text-3xl font-bold leading-normal text-white"
 		>
-			<div>Acesse o</div>
 			<div>Portal Sell</div>
 		</div>
-		<div class="flex flex-col text-center text-lg text-white">
-			<a
-				href="https://www.webware.com.br/bin/administradora/cadastro.asp?adm=14804150"
-				class="hover:text-green-sell duration-500">Cadastre-se</a
-			>
-			<a
-				href="https://www.webware.com.br/bin/administradora/lembrarsenha.asp?adm=14804150"
-				class="hover:text-green-sell duration-500">Esqueci meu acesso</a
-			>
-		</div>
 	</div>
-	<div class="item-center flex">
+	<div class="item-center">
 		<form
-			class="flex flex-col items-center gap-4"
+			class=" items-center gap-4"
 			action="https://validador.webware.com.br"
 			method="post"
 		>
@@ -48,10 +37,20 @@
 			<button
 				type="submit"
 				name="button"
-				class="h-14 w-64 rounded-full bg-green-600 px-6 text-lg font-semibold text-black duration-500 hover:bg-green-700"
+				class="h-14 w-32 rounded-full bg-green-600 px-6 text-lg font-semibold text-black duration-500 hover:bg-green-700"
 			>
 				Conectar
 			</button>
 		</form>
+	</div>
+	<div class="flex flex-col text-center text-lg text-white">
+		<a
+			href="https://www.webware.com.br/bin/administradora/cadastro.asp?adm=14804150"
+			class="duration-500 hover:text-green-sell">Cadastre-se</a
+		>
+		<a
+			href="https://www.webware.com.br/bin/administradora/lembrarsenha.asp?adm=14804150"
+			class="duration-500 hover:text-green-sell">Esqueci meu acesso</a
+		>
 	</div>
 </div>

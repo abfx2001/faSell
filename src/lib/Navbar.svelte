@@ -6,7 +6,7 @@
 	let scrolled = false;
 
 	const handleScroll = () => {
-		scrolled = window.scrollY > 100;
+		scrolled = window.scrollY > 50;
 		imageSrc = scrolled ? '/sell-logo-color.png' : '/sell-logo.png';
 	};
 
@@ -30,19 +30,19 @@
 			<div class="space-x-8">
 				<a
 					href="/"
-					class=" hover:text-green-sell rounded-md px-3 py-2 font-medium duration-500"
+					class=" rounded-md px-3 py-2 font-medium duration-500 hover:text-green-sell"
 					class:text-dark-blue-sell={scrolled}
 					class:text-white={!scrolled}>SOBRE NÓS</a
 				>
 				<a
 					href="/"
-					class=" hover:text-green-sell rounded-md px-3 py-2 font-medium duration-500"
+					class=" rounded-md px-3 py-2 font-medium duration-500 hover:text-green-sell"
 					class:text-dark-blue-sell={scrolled}
 					class:text-white={!scrolled}>PROPOSTA</a
 				>
 				<a
 					href="/"
-					class=" hover:text-green-sell rounded-md px-3 py-2 font-medium duration-500"
+					class=" rounded-md px-3 py-2 font-medium duration-500 hover:text-green-sell"
 					class:text-dark-blue-sell={scrolled}
 					class:text-white={!scrolled}>CONTATO</a
 				>
@@ -57,7 +57,7 @@
 			>
 				<div class=" items-center p-4">
 					<button
-						class="bg-light-blue-sell transform rounded-md px-6 py-3 font-medium text-white transition-transform duration-300 hover:scale-110"
+						class="transform rounded-md bg-light-blue-sell px-6 py-3 font-medium text-white transition-transform duration-300 hover:scale-110"
 					>
 						ACESSE O PORTAL
 					</button>

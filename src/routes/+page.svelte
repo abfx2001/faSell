@@ -7,18 +7,19 @@
 
 <Navbar />
 
-<section class="flex items-center justify-center gap-20 pt-60">
-	<AcessoPortal />
+<section class=" items-center justify-center gap-20 pt-32">
 	<h1 class="text-center text-5xl font-bold leading-normal text-white">
-		<div>Conheça nossos canais</div>
-		<div>que facilitam sua rotina</div>
+		<div>Conheça nossos canais que facilitam sua rotina</div>
 	</h1>
+	<div class="items-center justify-center">
+		<AcessoPortal />
+	</div>
 </section>
 
 <section class="mt-10 flex items-center justify-center gap-16">
 	<button
 		onclick="window.open('https://selladm.dyndns.ws/', '_blank')"
-		class="bg-dark-blue-sell/90 hover:bg-surface-sell flex h-28 w-56 items-center rounded-3xl p-4 pl-8 font-bold text-white shadow-lg duration-500"
+		class="flex h-28 w-56 items-center rounded-3xl bg-dark-blue-sell/90 p-4 pl-8 font-bold text-white shadow-lg duration-500 hover:bg-surface-sell"
 	>
 		<svg
 			class="flex size-20"
@@ -34,7 +35,7 @@
 
 	<button
 		onclick="window.open('https://selladm.com.br/regulariza/', '_blank')"
-		class="bg-dark-blue-sell/90 hover:bg-surface-sell flex h-28 w-56 items-center rounded-3xl p-4 pl-8 font-bold text-white shadow-lg duration-500"
+		class="flex h-28 w-56 items-center rounded-3xl bg-dark-blue-sell/90 p-4 pl-8 font-bold text-white shadow-lg duration-500 hover:bg-surface-sell"
 	>
 		<svg
 			class="flex size-20"
@@ -50,7 +51,7 @@
 
 	<button
 		onclick="window.open('https://selladm.dyndns.ws/', '_blank')"
-		class="bg-dark-blue-sell/90 hover:bg-surface-sell flex h-28 w-56 items-center rounded-3xl p-4 pl-8 font-bold text-white shadow-lg duration-500"
+		class="flex h-28 w-56 items-center rounded-3xl bg-dark-blue-sell/90 p-4 pl-8 font-bold text-white shadow-lg duration-500 hover:bg-surface-sell"
 	>
 		<svg
 			class="flex size-20"
@@ -66,7 +67,7 @@
 
 	<button
 		onclick="window.open('https://selladm.dyndns.ws/', '_blank')"
-		class="bg-dark-blue-sell/90 hover:bg-surface-sell flex h-28 w-56 items-center rounded-3xl p-4 pl-8 font-bold text-white shadow-lg duration-500"
+		class="flex h-28 w-56 items-center rounded-3xl bg-dark-blue-sell/90 p-4 pl-8 font-bold text-white shadow-lg duration-500 hover:bg-surface-sell"
 	>
 		<svg
 			class="flex"
