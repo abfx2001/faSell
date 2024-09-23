@@ -7,16 +7,18 @@
 
 <Navbar />
 
-<section class=" items-center justify-center gap-20 pt-32">
-	<h1 class="text-center text-5xl font-bold leading-normal text-white">
-		<div>Conheça nossos canais que facilitam sua rotina</div>
-	</h1>
-	<div class="items-center justify-center">
+<section class="flex flex-col items-center justify-center pt-64">
+	<div
+		class="mb-24 inline-block rounded-full bg-dark-blue-sell/90 px-8 text-center text-5xl font-bold leading-normal text-white"
+	>
+		Conheça nossos canais que facilitam sua rotina
+	</div>
+	<div class="mb-24 items-center justify-center">
 		<AcessoPortal />
 	</div>
 </section>
 
-<section class="mt-10 flex items-center justify-center gap-16">
+<section class="mb-24 flex items-center justify-center gap-16">
 	<button
 		onclick="window.open('https://selladm.dyndns.ws/', '_blank')"
 		class="flex h-28 w-56 items-center rounded-3xl bg-dark-blue-sell/90 p-4 pl-8 font-bold text-white shadow-lg duration-500 hover:bg-surface-sell"
@@ -99,7 +101,7 @@
 </section>
 
 <section>
-	<div class="mt-10 text-center text-5xl font-semibold text-white">
+	<div class="text-center text-5xl font-semibold text-white">
 		Dúvidas Frequentes
 	</div>
 </section>
