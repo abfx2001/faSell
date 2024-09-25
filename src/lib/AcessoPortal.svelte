@@ -104,11 +104,12 @@
 		>
 			<a
 				href="https://www.webware.com.br/bin/administradora/cadastro.asp?adm=14804150"
-				class="duration-500 hover:text-green-sell">Cadastre-se</a
+				class="font-semibold duration-500 hover:text-green-sell">Cadastre-se</a
 			>
 			<a
 				href="https://www.webware.com.br/bin/administradora/lembrarsenha.asp?adm=14804150"
-				class="duration-500 hover:text-green-sell">Esqueci meu acesso</a
+				class="font-semibold duration-500 hover:text-green-sell"
+				>Esqueci meu acesso</a
 			>
 		</div>
 	</div>
