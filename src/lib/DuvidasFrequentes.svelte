@@ -1,6 +1,8 @@
+<script src="../node_modules/pagedone/src/js/pagedone.js"></script>
+
 <div class="accordion-group mx-40 mt-10" data-accordion="default-accordion">
 	<div
-		class="accordion accordion-active:bg-light-blue-sell bg-surface-sell hover:bg-dark-blue-sell mb-7 rounded-2xl px-6 py-4 transition-all duration-500"
+		class="accordion accordion-active:bg-light-blue-sell mb-7 rounded-2xl bg-surface-sell px-6 py-4 transition-all duration-500 hover:bg-dark-blue-sell"
 		id="basic-heading-one-with-arrow"
 	>
 		<button
@@ -50,7 +52,7 @@
 		</div>
 	</div>
 	<div
-		class="accordion accordion-active:bg-light-blue-sell bg-surface-sell hover:bg-dark-blue-sell mb-7 rounded-2xl px-6 py-4 transition-all duration-500"
+		class="accordion accordion-active:bg-light-blue-sell mb-7 rounded-2xl bg-surface-sell px-6 py-4 transition-all duration-500 hover:bg-dark-blue-sell"
 		id="basic-heading-one-with-arrow"
 	>
 		<button
@@ -102,7 +104,7 @@
 		</div>
 	</div>
 	<div
-		class="accordion accordion-active:bg-light-blue-sell bg-surface-sell hover:bg-dark-blue-sell mb-7 rounded-2xl px-6 py-4 transition-all duration-500"
+		class="accordion accordion-active:bg-light-blue-sell mb-7 rounded-2xl bg-surface-sell px-6 py-4 transition-all duration-500 hover:bg-dark-blue-sell"
 		id="basic-heading-one-with-arrow"
 	>
 		<button
@@ -159,7 +161,7 @@
 		</div>
 	</div>
 	<div
-		class="accordion accordion-active:bg-light-blue-sell bg-surface-sell hover:bg-dark-blue-sell mb-7 rounded-2xl px-6 py-4 transition-all duration-500"
+		class="accordion accordion-active:bg-light-blue-sell mb-7 rounded-2xl bg-surface-sell px-6 py-4 transition-all duration-500 hover:bg-dark-blue-sell"
 		id="basic-heading-one-with-arrow"
 	>
 		<button
@@ -210,7 +212,7 @@
 		</div>
 	</div>
 	<div
-		class="accordion accordion-active:bg-light-blue-sell bg-surface-sell hover:bg-dark-blue-sell mb-7 rounded-2xl px-6 py-4 transition-all duration-500"
+		class="accordion accordion-active:bg-light-blue-sell mb-7 rounded-2xl bg-surface-sell px-6 py-4 transition-all duration-500 hover:bg-dark-blue-sell"
 		id="basic-heading-one-with-arrow"
 	>
 		<button
@@ -261,7 +263,7 @@
 		</div>
 	</div>
 	<div
-		class="accordion accordion-active:bg-light-blue-sell bg-surface-sell hover:bg-dark-blue-sell mb-7 rounded-2xl px-6 py-4 transition-all duration-500"
+		class="accordion accordion-active:bg-light-blue-sell mb-7 rounded-2xl bg-surface-sell px-6 py-4 transition-all duration-500 hover:bg-dark-blue-sell"
 		id="basic-heading-one-with-arrow"
 	>
 		<button
