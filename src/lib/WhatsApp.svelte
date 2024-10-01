@@ -1,0 +1,14 @@
+<link
+	rel="stylesheet"
+	href="https://cdn.positus.global/production/resources/robbu/whatsapp-button/whatsapp-button.css"
+/>
+<a
+	id="robbu-whatsapp-button"
+	target="_blank"
+	href="https://api.whatsapp.com/send?phone=551137960203&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20servi%C3%A7os"
+>
+	<img
+		src="https://cdn.positus.global/production/resources/robbu/whatsapp-button/whatsapp-icon.svg"
+		alt="wpp-logo"
+	/>
+</a>

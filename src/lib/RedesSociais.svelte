@@ -13,66 +13,64 @@
 </script>
 
 <div class="" class:hidden={scrolled} class:block={!scrolled}>
-	<a href="https://www.instagram.com/selladministradora">
-		<svg
-			class="me-4 inline-flex h-12 w-12 text-white duration-500 hover:text-green-sell"
-			viewBox="0 0 24 24"
-			fill="none"
-			stroke="currentColor"
-			stroke-width="2"
-			stroke-linecap="round"
-			stroke-linejoin="round"
-		>
-			<rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
-			<path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
-			<line x1="17.5" y1="6.5" x2="17.51" y2="6.5" /></svg
-		>
-	</a>
-	<a href="https://www.youtube.com/@selladministradora">
-		<svg
-			class="me-2 inline-flex h-12 w-12 text-white duration-500 hover:text-green-sell"
-			viewBox="0 0 24 24"
-			fill="none"
-			stroke="currentColor"
-			stroke-width="2"
-			stroke-linecap="round"
-			stroke-linejoin="round"
-		>
-			<path
-				d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"
-			/>
-			<polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" /></svg
-		>
-	</a>
 	<a href="https://www.facebook.com/selladministradora">
 		<svg
-			class="me-3 inline-flex h-12 w-12 text-white duration-500 hover:text-green-sell"
+			class="m-1 inline-flex rounded-full border-2 p-1.5 duration-500 hover:bg-green-sell"
+			xmlns="http://www.w3.org/2000/svg"
+			width="40"
+			height="40"
 			viewBox="0 0 24 24"
-			fill="none"
-			stroke="currentColor"
-			stroke-width="2"
-			stroke-linecap="round"
-			stroke-linejoin="round"
+			{...$$props}
 		>
 			<path
-				d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
-			/></svg
+				fill="white"
+				d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95"
+			/>
+		</svg>
+	</a>
+	<a href="https://www.instagram.com/selladministradora">
+		<svg
+			class="m-1 inline-flex rounded-full border-2 p-1.5 duration-500 hover:bg-green-sell"
+			xmlns="http://www.w3.org/2000/svg"
+			width="40"
+			height="40"
+			viewBox="0 0 24 24"
+			{...$$props}
 		>
+			<path
+				fill="white"
+				d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4zm9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3"
+			/>
+		</svg>
 	</a>
 	<a href="https://www.linkedin.com/company/selladministradora/mycompany/">
 		<svg
-			class="inline-flex h-12 w-12 text-white duration-500 hover:text-green-sell"
+			class="m-1 inline-flex rounded-full border-2 p-1.5 duration-500 hover:bg-green-sell"
+			xmlns="http://www.w3.org/2000/svg"
+			width="40"
+			height="40"
 			viewBox="0 0 24 24"
-			fill="none"
-			stroke="currentColor"
-			stroke-width="2"
-			stroke-linecap="round"
-			stroke-linejoin="round"
+			{...$$props}
 		>
 			<path
-				d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
-			/> <rect x="2" y="9" width="4" height="12" />
-			<circle cx="4" cy="4" r="2" /></svg
+				fill="white"
+				d="M6.94 5a2 2 0 1 1-4-.002a2 2 0 0 1 4 .002M7 8.48H3V21h4zm6.32 0H9.34V21h3.94v-6.57c0-3.66 4.77-4 4.77 0V21H22v-7.93c0-6.17-7.06-5.94-8.72-2.91z"
+			/>
+		</svg>
+	</a>
+	<a href="https://www.youtube.com/@selladministradora">
+		<svg
+			class="m-1 inline-flex rounded-full border-2 p-1.5 duration-500 hover:bg-green-sell"
+			xmlns="http://www.w3.org/2000/svg"
+			width="40"
+			height="40"
+			viewBox="0 0 24 24"
+			{...$$props}
 		>
+			<path
+				fill="white"
+				d="m10 15l5.19-3L10 9zm11.56-7.83c.13.47.22 1.1.28 1.9c.07.8.1 1.49.1 2.09L22 12c0 2.19-.16 3.8-.44 4.83c-.25.9-.83 1.48-1.73 1.73c-.47.13-1.33.22-2.65.28c-1.3.07-2.49.1-3.59.1L12 19c-4.19 0-6.8-.16-7.83-.44c-.9-.25-1.48-.83-1.73-1.73c-.13-.47-.22-1.1-.28-1.9c-.07-.8-.1-1.49-.1-2.09L2 12c0-2.19.16-3.8.44-4.83c.25-.9.83-1.48 1.73-1.73c.47-.13 1.33-.22 2.65-.28c1.3-.07 2.49-.1 3.59-.1L12 5c4.19 0 6.8.16 7.83.44c.9.25 1.48.83 1.73 1.73"
+			/>
+		</svg>
 	</a>
 </div>

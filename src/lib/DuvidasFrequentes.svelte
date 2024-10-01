@@ -1,6 +1,6 @@
 <script src="../node_modules/pagedone/src/js/pagedone.js"></script>
 
-<div class="accordion-group mx-40 mt-10" data-accordion="default-accordion">
+<div class="accordion-group mt-10 sm:mx-40" data-accordion="default-accordion">
 	<div
 		class="accordion accordion-active:bg-light-blue-sell mb-7 rounded-2xl bg-surface-sell px-6 py-4 transition-all duration-500 hover:bg-dark-blue-sell"
 		id="basic-heading-one-with-arrow"
@@ -42,6 +42,7 @@
 					class="text-blue-500 underline">selladm.com.br/cadastro;</a
 				> <br />2. Preencha o formulário com os dados necessários. <br />
 				Assista ao vídeo com o passo a passo para facilitar ainda mais:
+				<br />
 				<a
 					href="https://selladm.com.br/cadastro"
 					class="rounded-full bg-[#6b7280] px-4 py-1 font-sans text-white hover:bg-blue-500"
@@ -94,6 +95,7 @@
 				Caso não lembre seus dados, ou é seu primeiro acesso veja o primeiro item
 				dessa seção
 				<br /> Assista ao vídeo com o passo a passo para facilitar ainda mais:
+				<br />
 				<a
 					href="https://youtu.be/XOaNiYsNbo8?si=VgeScWZYIsejwc3Y"
 					class="rounded-full bg-[#6b7280] px-4 py-1 font-sans text-white hover:bg-blue-500"
@@ -151,6 +153,7 @@
 				Caso não lembre seus dados, ou é seu primeiro acesso, veja o primeiro item
 				dessa seção<br />
 				Para maiores detalhes, acesse o nosso vídeo:
+				<br />
 				<a
 					href="https://youtu.be/VupXYKzT4NQ?si=XKe5mIWSU4kntICX"
 					class="rounded-full bg-[#6b7280] px-4 py-1 font-sans text-white hover:bg-blue-500"
@@ -202,6 +205,7 @@
 				dessa seção.
 				<br />
 				Para obter a linha digitável de maneira simplificada, acesse:
+				<br />
 				<a
 					href="https://selladm.com.br/boleto"
 					class="rounded-full bg-[#6b7280] px-4 py-1 font-sans text-white hover:bg-blue-500"
@@ -253,6 +257,7 @@
 				primeiro item dessa seção.
 				<br />
 				Para maiores detalhes, acesse o nosso vídeo:
+				<br />
 				<a
 					href="https://youtu.be/PuN62RJojaI?si=xHQ_cW6hZhHJZ1V3"
 					class="rounded-full bg-[#6b7280] px-4 py-1 font-sans text-white hover:bg-blue-500"
@@ -308,6 +313,7 @@
 				primeiro item dessa seção
 				<br />
 				Para maiores detalhes, acesse o nosso vídeo:
+				<br />
 				<a
 					href="https://youtu.be/tAUwZSjhuyc?si=g9QYU28OQJKi5wJc"
 					class="rounded-full bg-[#6b7280] px-4 py-1 font-sans text-white hover:bg-blue-500"

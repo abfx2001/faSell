@@ -1,24 +1,45 @@
 <script>
-	import AcessoPortal from '$lib/AcessoPortal.svelte';
-	import DuvidasFrequentes from '$lib/DuvidasFrequentes.svelte';
-	import Navbar from '$lib/Navbar.svelte';
-	import Whatsapp from '$lib/Whatsapp.svelte';
+	import WhatsApp from '$lib/WhatsApp.svelte';
+	import AcessoPortal from '../lib/AcessoPortal.svelte';
+	import DuvidasFrequentes from '../lib/DuvidasFrequentes.svelte';
+	import Navbar from '../lib/Navbar.svelte';
+	import NavbarMobile from '../lib/NavbarMobile.svelte';
+
+	let isMobile = false;
+
+	import { onMount } from 'svelte';
+
+	onMount(() => {
+		const mq = window.matchMedia('(max-width: 768px)');
+
+		mq.addEventListener('change', (e) => {
+			isMobile = e.matches;
+		});
+
+		isMobile = mq.matches;
+	});
 </script>
 
-<Navbar />
+{#if isMobile}
+	<NavbarMobile />
+{:else}
+	<Navbar />
+{/if}
 
-<section class="flex flex-col items-center justify-center pt-64">
+<section class="flex flex-col items-center justify-center pt-48 sm:pt-64">
 	<div
-		class="mb-24 inline-block rounded-full bg-dark-blue-sell/90 px-8 text-center text-5xl font-bold leading-normal text-white"
+		class="mb-4 inline-block rounded-sm bg-dark-blue-sell/90 p-4 px-8 text-center text-2xl font-bold leading-normal text-white sm:mb-24 sm:rounded-full sm:text-5xl"
 	>
 		Conheça nossos canais que facilitam sua rotina
 	</div>
-	<div class="mb-24 items-center justify-center">
+	<div class="mb-8 items-center justify-center sm:mb-24">
 		<AcessoPortal />
 	</div>
 </section>
 
-<section class="mb-24 flex items-center justify-center gap-16">
+<section
+	class="mb-8 flex flex-col items-center justify-center gap-2 sm:mb-24 sm:flex-row sm:gap-16"
+>
 	<button
 		onclick="window.open('https://selladm.dyndns.ws/', '_blank')"
 		class="flex h-28 w-56 items-center rounded-3xl bg-dark-blue-sell/90 p-4 pl-8 font-bold text-white shadow-lg duration-500 hover:bg-surface-sell"
@@ -36,22 +57,6 @@
 	</button>
 
 	<button
-		onclick="window.open('https://selladm.com.br/regulariza/', '_blank')"
-		class="flex h-28 w-56 items-center rounded-3xl bg-dark-blue-sell/90 p-4 pl-8 font-bold text-white shadow-lg duration-500 hover:bg-surface-sell"
-	>
-		<svg
-			class="flex size-20"
-			xmlns="http://www.w3.org/2000/svg"
-			viewBox="0 0 24 24"
-			fill="#FFFFFF"
-			><path
-				d="M16,23c0,.552-.447,1-1,1H6c-2.757,0-5-2.243-5-5V5C1,2.243,3.243,0,6,0h4.515c1.869,0,3.627,.728,4.95,2.05l3.484,3.486c.271,.271,.523,.568,.748,.883,.321,.449,.217,1.074-.232,1.395-.449,.32-1.075,.217-1.395-.233-.161-.225-.341-.438-.534-.63l-3.485-3.486c-.318-.318-.671-.587-1.051-.805V7c0,.551,.448,1,1,1h3c.553,0,1,.448,1,1s-.447,1-1,1h-3c-1.654,0-3-1.346-3-3V2.023c-.16-.015-.322-.023-.485-.023H6c-1.654,0-3,1.346-3,3v14c0,1.654,1.346,3,3,3H15c.553,0,1,.448,1,1Zm5.685-6.733l-3.041-.507c-.373-.062-.644-.382-.644-.76,0-.551,.448-1,1-1h2.268c.356,0,.688,.192,.867,.5,.275,.478,.885,.641,1.366,.365,.478-.277,.642-.888,.364-1.366-.534-.925-1.53-1.5-2.598-1.5h-.268v-1c0-.552-.447-1-1-1s-1,.448-1,1v1c-1.654,0-3,1.346-3,3,0,1.36,.974,2.51,2.315,2.733l3.041,.507c.373,.062,.644,.382,.644,.76,0,.551-.448,1-1,1h-2.268c-.356,0-.688-.192-.867-.5-.275-.479-.886-.642-1.366-.365-.478,.277-.642,.888-.364,1.366,.534,.925,1.53,1.499,2.598,1.499h.268v1c0,.552,.447,1,1,1s1-.448,1-1v-1c1.654,0,3-1.346,3-3,0-1.36-.974-2.51-2.315-2.733Zm-14.185-1.267h5.5c.553,0,1-.448,1-1s-.447-1-1-1H7.5c-1.378,0-2.5,1.122-2.5,2.5v2c0,1.378,1.122,2.5,2.5,2.5h5.5c.553,0,1-.448,1-1s-.447-1-1-1H7.5c-.276,0-.5-.224-.5-.5v-2c0-.276,.224-.5,.5-.5Zm-1.5-4h2c.552,0,1-.448,1-1s-.448-1-1-1h-2c-.552,0-1,.448-1,1s.448,1,1,1Zm0-4h2c.552,0,1-.448,1-1s-.448-1-1-1h-2c-.552,0-1,.448-1,1s.448,1,1,1Z"
-			/></svg
-		>
-		<span>Boleto Vencido +30 dias</span>
-	</button>
-
-	<button
 		onclick="window.open('https://selladm.dyndns.ws/', '_blank')"
 		class="flex h-28 w-56 items-center rounded-3xl bg-dark-blue-sell/90 p-4 pl-8 font-bold text-white shadow-lg duration-500 hover:bg-surface-sell"
 	>
@@ -65,6 +70,22 @@
 			/></svg
 		>
 		<span>Alteração de Cadastro</span>
+	</button>
+
+	<button
+		onclick="window.open('https://selladm.com.br/regulariza/', '_blank')"
+		class="flex h-28 w-56 items-center rounded-3xl bg-dark-blue-sell/90 p-4 pl-8 font-bold text-white shadow-lg duration-500 hover:bg-surface-sell"
+	>
+		<svg
+			class="flex size-28"
+			xmlns="http://www.w3.org/2000/svg"
+			viewBox="0 0 24 24"
+			fill="#FFFFFF"
+			><path
+				d="M16,23c0,.552-.447,1-1,1H6c-2.757,0-5-2.243-5-5V5C1,2.243,3.243,0,6,0h4.515c1.869,0,3.627,.728,4.95,2.05l3.484,3.486c.271,.271,.523,.568,.748,.883,.321,.449,.217,1.074-.232,1.395-.449,.32-1.075,.217-1.395-.233-.161-.225-.341-.438-.534-.63l-3.485-3.486c-.318-.318-.671-.587-1.051-.805V7c0,.551,.448,1,1,1h3c.553,0,1,.448,1,1s-.447,1-1,1h-3c-1.654,0-3-1.346-3-3V2.023c-.16-.015-.322-.023-.485-.023H6c-1.654,0-3,1.346-3,3v14c0,1.654,1.346,3,3,3H15c.553,0,1,.448,1,1Zm5.685-6.733l-3.041-.507c-.373-.062-.644-.382-.644-.76,0-.551,.448-1,1-1h2.268c.356,0,.688,.192,.867,.5,.275,.478,.885,.641,1.366,.365,.478-.277,.642-.888,.364-1.366-.534-.925-1.53-1.5-2.598-1.5h-.268v-1c0-.552-.447-1-1-1s-1,.448-1,1v1c-1.654,0-3,1.346-3,3,0,1.36,.974,2.51,2.315,2.733l3.041,.507c.373,.062,.644,.382,.644,.76,0,.551-.448,1-1,1h-2.268c-.356,0-.688-.192-.867-.5-.275-.479-.886-.642-1.366-.365-.478,.277-.642,.888-.364,1.366,.534,.925,1.53,1.499,2.598,1.499h.268v1c0,.552,.447,1,1,1s1-.448,1-1v-1c1.654,0,3-1.346,3-3,0-1.36-.974-2.51-2.315-2.733Zm-14.185-1.267h5.5c.553,0,1-.448,1-1s-.447-1-1-1H7.5c-1.378,0-2.5,1.122-2.5,2.5v2c0,1.378,1.122,2.5,2.5,2.5h5.5c.553,0,1-.448,1-1s-.447-1-1-1H7.5c-.276,0-.5-.224-.5-.5v-2c0-.276,.224-.5,.5-.5Zm-1.5-4h2c.552,0,1-.448,1-1s-.448-1-1-1h-2c-.552,0-1,.448-1,1s.448,1,1,1Zm0-4h2c.552,0,1-.448,1-1s-.448-1-1-1h-2c-.552,0-1,.448-1,1s.448,1,1,1Z"
+			/></svg
+		>
+		<span>Boleto Vencido +30 dias</span>
 	</button>
 
 	<button
@@ -101,7 +122,7 @@
 </section>
 
 <section>
-	<div class="text-center text-5xl font-semibold text-white">
+	<div class="text-center text-3xl font-semibold text-white sm:text-5xl">
 		Dúvidas Frequentes
 	</div>
 </section>
@@ -110,4 +131,4 @@
 	<DuvidasFrequentes />
 </section>
 
-<Whatsapp />
+<WhatsApp />
