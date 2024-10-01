@@ -1,9 +1,9 @@
 <script>
+	import AcessoPortal from '$lib/AcessoPortal.svelte';
+	import DuvidasFrequentes from '$lib/DuvidasFrequentes.svelte';
+	import Navbar from '$lib/Navbar.svelte';
+	import NavbarMobile from '$lib/NavbarMobile.svelte';
 	import WhatsApp from '$lib/WhatsApp.svelte';
-	import AcessoPortal from '../lib/AcessoPortal.svelte';
-	import DuvidasFrequentes from '../lib/DuvidasFrequentes.svelte';
-	import Navbar from '../lib/Navbar.svelte';
-	import NavbarMobile from '../lib/NavbarMobile.svelte';
 
 	let isMobile = false;
 

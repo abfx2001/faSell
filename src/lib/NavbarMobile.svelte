@@ -1,7 +1,7 @@
 <script>
+	import BtnAcessoPortal from '$lib/BtnAcessoPortal.svelte';
 	import { onMount } from 'svelte';
 	import { fade } from 'svelte/transition';
-	import BtnAcessoPortal from './BtnAcessoPortal.svelte';
 
 	let imageSrc = '/sell-logo.png';
 	let scrolled = false;

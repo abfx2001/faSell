@@ -1,7 +1,7 @@
 <script>
+	import BtnAcessoPortal from '$lib/BtnAcessoPortal.svelte';
+	import RedesSociais from '$lib/RedesSociais.svelte';
 	import { onMount } from 'svelte';
-	import BtnAcessoPortal from './BtnAcessoPortal.svelte';
-	import RedesSociais from './RedesSociais.svelte';
 
 	let imageSrc = '/sell-logo.png';
 	let scrolled = false;
